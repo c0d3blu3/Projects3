@@ -1,0 +1,50 @@
+body {
+	background: #333; 
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.text_container {
+	width: 700px;
+	margin: 20px auto 50px;
+	text-align: center;
+	color: #fff8f1;
+}
+
+#title {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+#para {
+	font-family: Consolas, monaco, monospace;
+	font-size: 18px;
+	line-height: 1.4; 
+}
+
+#cat_holder {
+    text-align: center;
+}
+
+.cat {
+	display: inline-block;
+    margin: 0 30px;
+    width: 100%;
+    height: auto;
+}
+
+.thing_container {
+	margin: 30px;
+}
+
+a:link {
+	color: #fd8e45;
+}
+a:visited {
+	color: #fd8e45;
+}
+a:hover {
+	color: #ff6500;
+}
+a:active {
+	color: #ff6500;
+}
