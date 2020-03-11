@@ -28,8 +28,13 @@ body {
 .cat {
 	display: inline-block;
     margin: 0 30px;
-    width: 100%;
-    height: auto;
+}
+
+img {
+    float:  left;
+    width:  250px;
+    height: 200px;
+    background-size: cover;
 }
 
 .thing_container {
