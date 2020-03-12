@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors | c0d3blu3</title>
-    <link rel="stylesheet" href=""
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/rps.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/rps.js" type="text/javascript"></script>
 </head>
-<body>
+
+<body id="rps">
     
+    <div id="container">
+       
+        <div class="player" id="computer_container">
+            <div class="title" id="computer_title">Computer</div>
+      
+            <div class="hand_container" id="left_hand_container">
+              <img class="fist left hand" src="images/left_fist.jpg">
+              <img class="result left rock" src="images/rock.png" style="display:none">
+              <img class="result left paper" src="images/paper.png" style="display:none">
+              <img class="result left scissors" src="images/scissors.png" style="display:none">
+            </div>
+      
+          </div>
+      
+          <div id="score_container">Pick Your Poison!</div>
+      
+          <div class="player" id="human_container">
+            <div class="title" id="computer_title">You</div>
+      
+            <div class="hand_container" id="right_hand_container">
+              <img class="fist right hand" src="images/right_fist.jpg">
+              <img class="result right rock" src="images/rock.png" style="display:none">
+              <img class="result right paper" src="images/paper.png" style="display:none">
+              <img class="result right scissors" src="images/scissors.png" style="display:none">
+            </div>
+      
+            <div id="btn_container">
+              <div class="button clickable" id="rock">rock</div>
+              <div class="button clickable" id="paper">paper</div>
+              <div class="button clickable" id="scissors">scissors</div>
+            </div>
+          </div>
+
+    </div>
+
+    <footer>
+        <div id="links_container">
+          <a href="main.html" id="home">Go Home</a>
+        </div>
+      </footer>
+
 </body>
 </html>
