@@ -65,6 +65,15 @@ header{
     margin-top: 100px;
 }
 
+img{
+    width: 300px;
+    height: 200px;
+}
+
+#right_hand_container{
+    transform: scaleX(-1);
+}
+
 .shake {
     -webkit-animation: shake 1.5s;
     -moz-animation: shake 1.5s;
